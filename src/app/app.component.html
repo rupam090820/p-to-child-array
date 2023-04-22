@@ -1,0 +1,24 @@
+<h1>parrent component</h1>
+
+
+
+
+<div><h2>child component</h2>
+<app-child [data]="name"></app-child>  <!-- for single data send -->
+ <button (click)="changedata()">click this button for changing data value</button>  <!-- for changing data value -->
+</div>
+
+
+
+<div><h2>child 2 component</h2>
+ <app-child2 [data2]="food"></app-child2>   <!-- for array -->
+</div>
+
+<div>
+  <app-child3 [dataobj]="obj"></app-child3>    <!-- child 3 component-->
+
+</div>
+
+<div>
+  <app-child4 [data_ary_obj]="user_info"></app-child4>
+</div>
